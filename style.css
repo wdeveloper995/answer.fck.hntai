@@ -82,3 +82,21 @@ nav ul li a:hover {
     height: 70px;
     width: 70px;
 }
+
+h1{
+    color: #cbf3f0;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    position: relative;
+}
+
+h1{
+    margin: 32px 0;
+    animation: fade-down 2000ms forwards cubic-bezier(0.43, 0.53, 0.5, 1.02);
+    transform: translateY(-100px);
+    opacity: 0;
+}
